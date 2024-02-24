@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web Simple</title>
+    <title>Mi Página Personal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,9 +17,6 @@
             padding: 20px;
             text-align: center;
         }
-        h1 {
-            margin: 0;
-        }
         .container {
             max-width: 800px;
             margin: 20px auto;
@@ -28,19 +25,38 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        h1, h2 {
+            margin: 0;
+        }
         p {
             line-height: 1.6;
+        }
+        .profile-img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Mi Página Web Simple</h1>
+        <h1>Mi Página Personal</h1>
     </header>
     <div class="container">
-        <h2>¡Bienvenido!</h2>
-        <p>Esta es una página web simple creada con HTML y CSS.</p>
-        <p>Puedes editar este contenido como desees para personalizar tu propia página web.</p>
+        <img src="tu_foto.jpg" alt="Foto de perfil" class="profile-img" width="150">
+        <h2>¡Hola! Soy [Tu Nombre]</h2>
+        <p>Breve descripción sobre ti y tus intereses.</p>
+        <h2>Experiencia</h2>
+        <p>Detalles sobre tu experiencia profesional o educativa.</p>
+        <h2>Proyectos</h2>
+        <p>Lista de proyectos en los que has trabajado o estás trabajando.</p>
+        <h2>Contacto</h2>
+        <p>Puedes contactarme en [tu_correo@ejemplo.com] o seguirme en mis redes sociales:</p>
+        <ul>
+            <li><a href="https://twitter.com/tu_usuario" target="_blank">Twitter</a></li>
+            <li><a href="https://linkedin.com/in/tu_usuario" target="_blank">LinkedIn</a></li>
+            <!-- Agrega más redes sociales si lo deseas -->
+        </ul>
     </div>
 </body>
 </html>
